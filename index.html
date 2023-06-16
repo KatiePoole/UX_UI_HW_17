@@ -17,29 +17,33 @@
 <body>
 
     <header class="navigation">
-        <nav class="inline-block w50 flex-end">
+        <nav class="inline-block w40 flex-end">
             <ul class="navbar-list flex-end">
                 <li class="inline-block nav-button">My Work</li>
-                <li class="inline-block nav-button">About Me</li>
+                <li class="inline-block nav-button"><a href="aboutme.html">About Me</a></li>
                 <li class="inline-block nav-button">Contact</li>
             </ul>
         </nav>
 
     </header>
 
-    <div class="col-md-7 coral-box">
-
-        <div class="logo-container">
-            <h1 class="logo">Katie<br>Poole</h1>
-        </div>
-
-    </div>
-
-
     <section>
-        <div class="row homepage-rows quote-h align-items-end mb-vh-10">
+        <div class="col-md-7 coral-box">
+
+            <div class="logo-container">
+                <h1 class="logoK">Katie</h1>
+                <br>
+                <h1 class="logoP">Poole</h1>
+                        </div>
+
+        </div>
+    </section>
+
+
+    <section class="sectionHeight">
+        <div class="row homepageRows align-items-end mb-vh-10" id="quote-height">
             <div class="col-md-5 offset-7">
-                <h2 class="quote-main-text">
+                <h2 id="quote-main-text">
                     <span class="quote-speech-marks">“</span>The best way to predict the future is to design it<span
                         class="quote-speech-marks">”</span>
                 </h2>
@@ -47,22 +51,22 @@
             </div>
         </div>
 
-        <div class="row homepage-rows about-me-h align-items-start">
-            <div class="col-md-5 offset-7">
+        <div class="row homepageRows align-items-start">
+            <div class="col-md-5 offset-7 aboutMeHeight">
 
-                <h2 class=about-me>Hi! I’m Katie, a user experience researcher & designer with a passion for
+                <h2 id=about-me>Hi! I’m Katie, a user experience researcher & designer with a passion for
                     user-centred design.</h2>
 
             </div>
         </div>
-        <div class="row homepage-rows button-h">
+        <div class="row homepageRows ">
             <div class="col-md-5 offset-7">
                 <div class="row pr-0">
                     <div class="col-6 text-right">
-                        <button type="button" class="homepage-button m-r">About Me ></button>
+                        <button type="button" class="buttonStyle m-r">About Me ></button>
                     </div>
                     <div class="col-6 text-left">
-                        <button type="button" class="homepage-button m-l">My Work ></button>
+                        <button type="button" class="buttonStyle m-l">My Work ></button>
                     </div>
                 </div>
             </div>
@@ -70,16 +74,29 @@
     </section>
 
 
-    </section>
 
 
-    <section>
+
+    <section class = "subtitleContainer">
         <h1 class="subtitle">My Recent Work</h1>
 
     </section>
 
 
-
+    <footer class="row footerRow">
+        <div class="col-md-2 footerLogo">
+            Katie
+            <br>
+            Poole
+        </div>
+        <div class="col-md-10 footerList">
+            <ul class="listStyle">
+                <li>klpoole21@gmail.com</li>
+                <li>logo logo</li>
+                <li>www.katiepoole.co.uk © 2023</li>
+            </ul>
+        </div>
+    </footer>
 
 
     <!--- Bootstrap -->
